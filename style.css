@@ -39,6 +39,11 @@ header div {
   padding: 4px; /* preenchimento da caixa, como border */
   border-radius: 50%;
   display: flex;
+  transition: transform 0.3s;
+}
+
+header div:hover {
+  transform: scale(1.1);
 }
 
 header img {
@@ -86,6 +91,14 @@ section ul {
   flex-wrap: wrap;
   gap: 16px;
   margin-top: 24px;
+}
+
+section ul li {
+  transition: transform 0.3s;
+}
+
+section ul li:hover {
+  transform: scale(1.1);
 }
 
 .games-list img {
